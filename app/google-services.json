@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545363535394",
+    "project_id": "fir-test-69d8e",
+    "storage_bucket": "fir-test-69d8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545363535394:android:6277c9b6000356e3208c7b",
+        "android_client_info": {
+          "package_name": "tech.abralica.clinicalaluzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545363535394-6grakm9c25uev0ig4qvnfdjto4hikuct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVq0txmj4DTVG3m-PM01uBJSONOgOjjvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545363535394-6grakm9c25uev0ig4qvnfdjto4hikuct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

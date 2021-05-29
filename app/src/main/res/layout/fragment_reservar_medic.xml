@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    android:background="@color/colorfondo"
+    tools:context=".ui.paciente.ReservarMedicoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:layout_marginVertical="32dp"
+            android:text="@string/select_medic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:src="@drawable/cll_tacna_dr_cesar_lanchipa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:paddingHorizontal="32dp"
+                android:textColor="@color/white"
+                android:text="Dr. César Fernando Lanchipa Picoaga"/>
+
+            <RatingBar
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:paddingHorizontal="32dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="32dp"
+                android:textColor="@color/white"
+                android:text="Jefe de la Especialidad de Cirugía General - Sede Tacna"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:src="@drawable/cll_tacna_dr_alexvic_nieves"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:paddingHorizontal="32dp"
+                android:textColor="@color/white"
+                android:text="Dr. Alexvic Nieves Quero"/>
+
+            <RatingBar
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:paddingHorizontal="32dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="32dp"
+                android:textColor="@color/white"
+                android:text="Fisiatra"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:src="@drawable/cll_tacna_dr_carlos_gamez"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:paddingHorizontal="32dp"
+                android:textColor="@color/white"
+                android:text="Dr. Carlos Javier Gámez Bernabé"/>
+
+            <RatingBar
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:paddingHorizontal="32dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="32dp"
+                android:textColor="@color/white"
+                android:text="Jefe del Área de Neumología de la Clínica La Luz - Sede Tacna"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

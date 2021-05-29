@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medico_navigation"
+    app:startDestination="@id/nav_home_medico">
+
+    <fragment
+        android:id="@+id/nav_home_medico"
+        android:name="tech.abralica.clinicalaluzapp.ui.CitasFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_main_citas" />
+    <fragment
+        android:id="@+id/nav_ver_citas"
+        android:name="tech.abralica.clinicalaluzapp.ui.CitasFragment"
+        android:label="Ver citas"
+        tools:layout="@layout/fragment_main_citas" />
+</navigation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@id/nav_home_admin">
+
+    <fragment
+        android:id="@+id/nav_home_admin"
+        android:name="tech.abralica.clinicalaluzapp.ui.administrador.EspecialidadFragment"
+        android:label="@string/menu_reg_especialidad"
+        tools:layout="@layout/fragment_admin_home" />
+    <fragment
+        android:id="@+id/nav_reg_especialidad_f"
+        android:name="tech.abralica.clinicalaluzapp.ui.administrador.EspecialidadFragment"
+        android:label="@string/menu_reg_especialidad"
+        tools:layout="@layout/fragment_especialidad" />
+    <fragment
+        android:id="@+id/nav_reg_persona"
+        android:name="tech.abralica.clinicalaluzapp.ui.start.PersonalDataFragment"
+        android:label="@string/menu_reg_medico"
+        tools:layout="@layout/fragment_signup_persona" >
+        <action
+            android:id="@+id/action_personalDataFragment2_to_datosMedicoFragment"
+            app:destination="@id/nav_reg_medico" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_reg_medico"
+        android:name="tech.abralica.clinicalaluzapp.ui.administrador.DatosMedicoFragment"
+        android:label="fragment_signup_medico"
+        tools:layout="@layout/fragment_signup_medico" />
+</navigation>
